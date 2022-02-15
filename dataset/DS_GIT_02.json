@@ -1,0 +1,21 @@
+{
+	"name": "DS_GIT_02",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_GIT_02",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "container2"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
